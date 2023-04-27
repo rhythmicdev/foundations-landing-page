@@ -23,7 +23,8 @@ li {
 }
 
 .header-container,
-.footer-container {
+.footer-container,
+.hero-container {
     background-color: #1F2937;
     align-items: center;
 }
@@ -43,3 +44,37 @@ li {
 }
 
 /* hero */
+
+.hero-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    padding: 16px;
+}
+
+.hero-left {
+    width: 500px;
+}
+
+.herotext-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.herotext-second {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 16px;
+}
+
+.hero-signup {
+    background-color: #3882F6;
+    border: none;
+    text-align: center;
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    width: 100px;
+}
