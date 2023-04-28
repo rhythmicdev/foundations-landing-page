@@ -55,7 +55,7 @@ li {
 }
 
 .hero-left {
-    width: 500px;
+    width: 375px;
 }
 
 .herotext-main {
@@ -80,6 +80,9 @@ li {
     width: 100px;
 }
 
+.hero-image {
+    width: 250px;
+}
 /* info */
 
 .info-header {
@@ -184,4 +187,12 @@ li {
     border-radius: 12px;
     width: 100px;
     flex-shrink: 0;
+}
+
+/* footer */
+
+.footer-container {
+    color: #E5E7EB;
+    text-align: center;
+    padding: 32px;
 }
